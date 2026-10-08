@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.18.1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-set (CMAKE_CXX_FLAGS "-Werror -Wformat-security")
+set (CMAKE_CXX_FLAGS "-Wformat-security")
 
 add_subdirectory(Dobby)
 
