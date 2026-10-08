@@ -8,13 +8,10 @@ android {
     defaultConfig {
         applicationId "com.musk.il2cppdumper"
         minSdk 21
-        targetSdk 32
+        targetSdk 28
         versionCode 1
         versionName "1.0"
 
-        buildFeatures {
-            prefab true
-        }
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
@@ -45,7 +42,7 @@ android {
 }
 
 dependencies {
-    implementation  "io.github.vvb2060.ndk:dobby:1.2"
+    implementation "io.github.vvb2060.ndk:dobby:1.2"
     implementation "dev.rikka.ndk.thirdparty:cxx:1.2.0"
     implementation 'androidx.appcompat:appcompat:1.4.2'
     implementation 'com.google.android.material:material:1.6.1'
